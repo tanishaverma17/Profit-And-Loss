@@ -1,7 +1,40 @@
-body{
+*{
+    background-color: black;
+    color: white;
     text-align: center;
 }
-label{
+label, input{
     display: block;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(229, 255, 176);
+}
+input{
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    color: #fff;
+    border: 1px solid rgb(229, 255, 176);
+    border-radius: 5px;
+    font-size: 15px;
+}
+#submit-btn{
+    border: 1px solid #fff;
+    color: #000000;
+    background-color: rgb(229, 255, 176);
+    font-size: 20px;
+}
+#output-box{
+    font-size: 20px;
+    margin: 1rem auto;
     padding: 1rem;
+
+}
+.okay{
+    color: green;
+}
+
+.error{
+    color: red;
 }
