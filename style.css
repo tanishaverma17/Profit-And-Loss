@@ -1,7 +1,20 @@
 *{
-    background-color: black;
+    background-color: rgb(16, 37, 20);
     color: white;
     text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 0 0 1rem grey;
+}
+#container{
+    border: 1px solid #fff;
+    margin: 3.5rem 25%;
+}
+p{
+    color: rgb(150, 177, 109);
+    font-size: 20px;
+    padding: 1rem;
 }
 label, input{
     display: block;
@@ -13,6 +26,7 @@ label{
 }
 input{
     margin: 1rem auto;
+    margin-bottom: 2.5rem;
     padding: 1rem 2rem;
     color: #fff;
     border: 1px solid rgb(229, 255, 176);
@@ -32,7 +46,7 @@ input{
 
 }
 .okay{
-    color: green;
+    color: rgb(164, 236, 164);
 }
 
 .error{
